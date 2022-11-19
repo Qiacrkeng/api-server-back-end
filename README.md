@@ -5,11 +5,12 @@
 - Express - 后端服务器框架
 - mysql - 数据库（本人开发用的是 5.x，8.x 需要额外设置）
 - bcryptjs - 数据加密库
-- Axios - 网络 Api 封装库
-- express-jwt - express 的 jwt 中间件
-- joi - 数据规则验证库
 - multer - form-data 格式处理
+- Axios - 网络 Api 封装库
+- cors - 开启跨域的 express 中间件
+- joi - 数据规则验证库
 - express-joi - 根据 joi 库封装为 express 中间件
+- express-jwt - express 的 jwt 中间件
 - jsonwebtoken - jwt 数据处理库
 
 ## 开始
@@ -56,4 +57,4 @@ yarn dev
 
 [前端项目链接](https://github.com/Qiacrkeng/api-server)
 
-> 项目目前还剩下一点需求未实现，大部分恩都已实现
+> 项目目前还剩下一点需求未实现，大部分都已实现
