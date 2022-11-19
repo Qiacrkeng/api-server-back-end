@@ -7,7 +7,7 @@
     "start": "tsc && node ./dist/app.js",
     "build": "tsc",
     "preview": "node ./dist/app.js",
-    "dev": "nodemon -w ./**/* -i ./dist -e ts -x npm run start"
+    "dev": "nodemon -w ./**/* -i ./dist -e ts -x npm start"
   },
   "author": "",
   "license": "ISC",
