@@ -55,3 +55,5 @@ yarn dev
 `功能：文章发布、分类管理、账户信息更改`
 
 [前端项目链接](https://github.com/Qiacrkeng/api-server)
+
+> 项目目前还剩下一点需求未实现，大部分恩都已实现
