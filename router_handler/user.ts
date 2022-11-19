@@ -10,8 +10,6 @@ import { HttpBody, HttpSend } from "../types/Http.js";
 
 // 註冊用戶的處理函數
 export const regUser: RequestHandler = (request, response) => {
-  // 1sdasadsa
-  // 喜歡萬小姐姐sdasadsads
   const userInfo: HttpBody = request.body;
   const sqlStr: string = `SELECT * FROM ev_users WHERE username = ?`;
   if (!userInfo || !userInfo.username || !userInfo.password) {
