@@ -1,0 +1,38 @@
+{
+  "name": "bigevent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/app.js",
+  "scripts": {
+    "start": "tsc && node ./dist/app.js",
+    "build": "tsc",
+    "preview": "node ./dist/app.js",
+    "dev": "nodemon -w ./**/* -i ./dist -e ts -x npm run start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@escook/express-joi": "^1.1.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "express-jwt": "^7.7.7",
+    "joi": "^17.6.4",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.14",
+    "@types/jsonwebtoken": "^8.5.9",
+    "@types/multer": "^1.4.7",
+    "@types/mysql": "^2.15.21",
+    "@types/node": "^18.11.8",
+    "@typescript-eslint/eslint-plugin": "^5.42.1",
+    "@typescript-eslint/parser": "^5.42.1",
+    "eslint": "^8.27.0"
+  }
+}
